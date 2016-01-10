@@ -1,2 +1,2 @@
 # glowing-broccoli
-Chrome extension
+Chrome extensions
