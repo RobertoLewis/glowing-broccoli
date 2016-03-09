@@ -5,6 +5,14 @@
 
 Coursework:
 * [Pre-work](http://bookstrap.makersquare.com/)
+* [Git Immersion](http://gitimmersion.com)
+* [GitHub: Forks & Pull Requests]( http://youtu.be/75_UrC2unv4)
+* [MakerSquare Git Workflow](http://bookstrap.MakerSquare.com/curriculum/entry/git-workflow-overview)
+* [Testing Your JavaScript Using Mocha](https://nicolas.perriault.net/code/2013/testing-frontend-javascript-code-using-mocha-chai-and-sinon/)
+* [JavaScript Koans](http://bookstrap.makersquare.com/curriculum/sprint.javascript-koans)
+* [Discover DevTools, Ch. 1-5](http://discover-devtools.codeschool.com)
+* [Debugging JavaScript](https://web.archive.org/web/20140101092752/http://jameslaicreative.com/debugging-javascript)
+* [Underbar, Part 1](http://bookstrap.makersquare.com/curriculum/sprint.underbar)
 
 Repositories:
 * [JavaScript Koans](https://github.com/makersquare/MKS-LA-javascript-koans)
