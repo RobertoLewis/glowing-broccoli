@@ -13,6 +13,8 @@ Coursework:
 * [Discover DevTools, Ch. 1-5](http://discover-devtools.codeschool.com)
 * [Debugging JavaScript](https://web.archive.org/web/20140101092752/http://jameslaicreative.com/debugging-javascript)
 * [Underbar, Part 1](http://bookstrap.makersquare.com/curriculum/sprint.underbar)
+* [underscore.js](http://underscorejs.org/)
+* [underscore documentation](http://underscorejs.org/)
 
 Repositories:
 * [JavaScript Koans](https://github.com/makersquare/MKS-LA-javascript-koans)
