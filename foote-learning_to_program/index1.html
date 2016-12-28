@@ -1,0 +1,58 @@
+<!-- What data_generator.js does: Creates two global variables, users and streams.
+users is an array of strings - all the usernames that you're following.
+streams is an object with two properties, users and home.
+streams.home is an array of all tweets from all the users you're following.
+streams.users is an object with properties for each user. streams.users.shawndrost has all of shawndrost's tweets.
+Kicks off a periodic process that puts more data in streams. -->
+
+<!-- Show the user new tweets somehow. (You can show them automatically as they're created, or create a button that displays new tweets.)
+Display the timestamps of when the tweets were created.
+Design your interface so that you want to look at and use the product you're making.
+Allow the user to click on a username to see that user's timeline. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <script src="jquery.js"></script>
+    <script src="data_generator.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>This is test content.</h1>
+      <h2>This is also test content.</h2>
+      <button>Button One</button>
+      <button>Button Two</button>
+      </div>
+
+
+
+    <script>
+
+      $(document).ready(function(){
+        var $body = $('body');
+        $body.html('');
+        //streams is an object with two properties, users and home.
+        //streams.home is an array of all tweets from all the users you're following.
+
+        var index = streams.home.length - 1;
+        while(index >= 0){
+          var tweet = streams.home[index];
+          var $tweet = $('<div></div>');
+
+
+          $tweet.text('@' + tweet.user + ': ' + tweet.message);
+
+
+          $tweet.appendTo($body);
+          index -= 1;
+        }
+
+      });
+
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
